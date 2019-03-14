@@ -87,7 +87,10 @@ h6 {
 
 .masthead {
   min-height: 30rem;
-
+  
+  width: 100%;
+  height: auto;
+  
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
