@@ -54,8 +54,16 @@ h6 {
   .map {
     height: 75%;
   }
+  
 }
 
+/* For width 400px and larger: */
+@media (min-width: 400px) {
+  body { 
+    background-image: url("../img/bg-masthead.jpg");
+  }
+}
+  
 .map iframe {
   pointer-events: none;
 }
@@ -86,6 +94,17 @@ h6 {
 }
 
 .masthead {
+  /* For devices smaller than 400px: */
+body {
+  background-image: url("../img/portfolio-4.jpg");
+}
+
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px) {
+  body { 
+    background-image: url("../img/bg-masthead.jpg"); 
+  }
+}
   min-height: 30rem;
   
   width: 100%;
@@ -93,7 +112,6 @@ h6 {
   
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
