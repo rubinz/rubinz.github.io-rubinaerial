@@ -81,7 +81,9 @@ h6 {
 }
 
 .masthead {
- background-image: url("../img/bg-masthead.jpg");
+ #background-image: url("../img/bg-masthead.jpg");
+ background-image: url("../img/DDC8CE89-2E44-4DDF-BC54-B48561B707B2.png");
+
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
